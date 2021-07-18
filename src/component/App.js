@@ -2,6 +2,7 @@ import NavBar from './NavBar'
 import '../styles/App.css';
 import LastPost from './LastPost';
 import Videos from './Videos';
+import Articles from './Articles';
 
 function App() {
   return (
@@ -11,8 +12,11 @@ function App() {
         <div className="h-full w-screen lg:w-1/2 relative">
           <LastPost/>
         </div>
-        <div className="h-screen w-screen lg:w-1/2 sm:mt-28">
+        <div className="h-full w-screen lg:w-1/2 sm:mt-28">
           <Videos/>
+        </div>
+        <div className="h-screen w-screen lg:w-1/2 sm:mt-28">
+          <Articles/>
         </div>
       </div>
       
