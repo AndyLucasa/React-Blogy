@@ -13,6 +13,7 @@ const LastPost = () => {
                     <p className=" text-xs font-poppins py-1 px-2 text-red-600">Branch - IGGLIA3</p>
                 </div>
                 <p className=" text-base text-left font-poppins m-4 text-gray-900 ">AMBININTSOA Ny Aina Andy Lucas students in ISPM .</p>
+                <div className="h-1"></div>
             </div>
         </section>
     )

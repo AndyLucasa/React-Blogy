@@ -43,7 +43,7 @@ const NabBar = () => {
                         </div>
 
                         <div  className="NavItem h-14 pr-9">
-                            <a href="#home" className="NavLink flex items-center p-4 h-full cursor-pointer border-b-2 border-red-400 ">
+                            <a href="#contact" className="NavLink flex items-center p-4 h-full cursor-pointer border-b-2 border-red-400 ">
                                 <BiAt
                                     className="w-5 h-5 mr-3"
                                     aria-hidden="true"
