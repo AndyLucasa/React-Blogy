@@ -10,7 +10,7 @@ const responsive = {
       // the naming can be any, depends on you.
       breakpoint: { max:3000, min: 1280  },
       items: 1,
-      partialVisibilityGutter: 250
+      partialVisibilityGutter: 230
     },
     desktop: {
       breakpoint: { max: 1280, min: 1024  },
