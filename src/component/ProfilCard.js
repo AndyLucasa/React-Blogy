@@ -3,7 +3,7 @@ import Me2 from '../assets/me2.jpg'
 
 function ProfilCard() {
     return (
-        <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" className="m-9 h-32 mt-12 rounded-xl bg-white shadow-md flex justify-center ">
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" className="m-9 h-32 mt-11 rounded-xl bg-white shadow-md flex justify-center ">
             <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200" className="h-12 w-12 rounded-full bg-gray-900 shadow-sm mt-4 block absolute">
                 <img src={Me2} alt="" className="cursor-pointer h-12 w-12 rounded-full object-cover"/>
             </div>
