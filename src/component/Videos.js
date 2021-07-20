@@ -30,7 +30,7 @@ const responsive = {
 const Videos = () => {
     return (
         <section id="video" className="Vids sm:-mt-14 lg:mr-6 ">
-            <p className="text-gray-900 justify-self-start cursor-pointer text-xl flex items-center ml-6 font-extrabold  no-underline font-rubik">Videos</p>
+            <p className="text-gray-900 justify-self-start cursor-pointer text-2xl flex items-center ml-6 no-underline font-thin font-righteous">Videos</p>
             <Carousel
                 responsive={responsive}
                 additionalTransfrom={0}

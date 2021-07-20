@@ -5,10 +5,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'poppins': ['"Poppins"', 'sans-serif'] ,
-        'karla': ['"Karla"', 'sans-serif'],
-        'rubik': ['"Rubik"', 'sans-serif'],
-        'righteous' : ["Righteous",'cursive']
+        'poppins': ["Poppins", 'sans-serif'] ,
+        'karla': ["Karla", 'sans-serif'],
+        'rubik': ["Rubik", 'sans-serif'],
+        'righteous' : ["Righteous",'cursive'],
+        'roboto' :["Roboto", 'sans-serif' ]
       },
     },
   },

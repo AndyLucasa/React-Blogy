@@ -1,14 +1,17 @@
 import React from 'react'
+import Monde from '../assets/monde.jpg'
+import Mac from '../assets/mac.jpg'
 
 function News() {
     return (
-        <div className="h-4/5 m-6 mt-6 space-y-6">
-            <p className="text-gray-900 justify-self-start cursor-pointer text-xl flex items-center ml-6 font-extrabold  no-underline font-rubik">News</p>
-            <div className="bg-white h-64 rounded-xl">
-
+        <div className="h-4/5 m-6 mt-4 space-y-2">
+            <p className="text-gray-900 justify-self-start cursor-pointer text-2xl flex items-center ml-6 no-underlinefont-thin font-righteous">News</p>
+            <div className="bg-white h-64 rounded-xl shadow-md">
+                <img src={Monde} alt="Monde" className="h-full w-full px-px rounded-xl object-cover" />
             </div>
-            <div className="bg-white h-64 rounded-xl">
-
+            <div className="h-1"></div>
+            <div className="bg-white h-64 rounded-xl shadow-md">
+            <img src={Mac} alt="Mac" className="h-full w-full px-px rounded-xl object-cover " />
             </div>
         </div>
     )
