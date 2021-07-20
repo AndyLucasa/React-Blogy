@@ -3,7 +3,7 @@ import Me1 from '../assets/me1.jpg'
 
 function LastPost (){
     return (
-        <section id="home"className="LastPost pt-4 h-4/5">
+        <section id="home"className="LastPost pt-2 h-4/5">
             <p  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1200" className="text-gray-900 justify-self-start cursor-pointer text-2xl flex items-center ml-6 no-underline font-thin font-righteous">Recent Article</p>
             <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700" className="h-3/4 md:h-full rounded-lg m-6 mt-2 bg-white shadow-xl">
                 <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2600" className="PhotoL h-2/3 md:h-4/5 ">

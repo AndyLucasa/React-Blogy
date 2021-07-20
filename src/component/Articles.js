@@ -10,7 +10,7 @@ const Articles = () => {
             <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700" className="text-gray-900 justify-self-start cursor-pointer text-2xl flex items-center ml-6 no-underline font-thin font-righteous">Articles</p>
             <div className="md:space-x-0">
                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200" className="Article1 md:inline-block h-32 m-6 rounded-xl shadow-md bg-white md:h-full md:w-72 flex items-center  md:mr-10 ">
-                    <div className="images h-24 w-24 m-4 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
+                    <div className="images h-24 w-24 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
                         <img src={Decoration} alt="Case Study" className="w-full h-full rounded-lg object-cover"/>
                     </div>
                     <div className="Text h-24 w-9/12 m-4 ml-28 pl-4 rounded-lg md:w-72 md:h-full md:ml-0 md:pr-2 md:pt-3">
@@ -22,7 +22,7 @@ const Articles = () => {
                 </div>
 
                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1400" className="Article1 md:inline-block h-32 m-6 rounded-xl shadow-md bg-white md:h-full md:w-72 flex items-center md:mr-10 ">
-                    <div className="images h-24 w-24 m-4 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
+                    <div className="images h-24 w-24 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
                         <img src={Business} alt="Case Study" className="w-full h-full rounded-lg object-cover"/>
                     </div>
                     <div className="Text h-24 w-9/12 m-4 ml-28 pl-4 rounded-lg md:w-72 md:h-full md:ml-0 md:pr-2 md:pt-3">
@@ -36,7 +36,7 @@ const Articles = () => {
 
             <div className="md:space-x-0">
                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1400" className="Article1 md:inline-block h-32 m-6 rounded-xl shadow-md bg-white md:h-full md:w-72 flex items-center  md:mr-10 ">
-                    <div className="images h-24 w-24 m-4 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
+                    <div className="images h-24 w-24 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
                         <img src={Graphics} alt="Case Study" className="w-full h-full rounded-lg object-cover"/>
                     </div>
                     <div className="Text h-24 w-9/12 m-4 ml-28 pl-4 rounded-lg md:w-72 md:h-full md:ml-0 md:pr-2 md:pt-3">
@@ -48,7 +48,7 @@ const Articles = () => {
                 </div>
 
                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1600" className="Article1 md:inline-block h-32 m-6 rounded-xl shadow-md bg-white md:h-full md:w-72 flex items-center md:mr-10 ">
-                    <div className="images h-24 w-24 m-4 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
+                    <div className="images h-24 w-24 mr-0 bg-gray-900 rounded-lg absolute md:w-72 md:h-72 md:relative md:m-0 ">
                         <img src={Sport} alt="Case Study" className="w-full h-full rounded-lg object-cover"/>
                     </div>
                     <div className="Text h-24 w-9/12 m-4 ml-28 pl-4 rounded-lg md:w-72 md:h-full md:ml-0 md:pr-2 md:pt-3">

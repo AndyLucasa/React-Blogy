@@ -1,4 +1,5 @@
 {
+  "homepage": "http://AndyLucasa.github.io/React-Blogy",
   "name": "bloogy",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -44,6 +47,7 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.4",
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.2.3",
     "postcss": "^7.0.36",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
