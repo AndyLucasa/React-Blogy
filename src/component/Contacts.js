@@ -3,12 +3,12 @@ import { FaGithub, FaFacebook, FaLinkedin,FaBlogger } from "react-icons/fa"
 
 const Contacts = () => {
     return (
-        <section id="contact" className="">
+        <section id="contact" className="sticky bg-white">
             <footer class="py-6 dark:bg-coolGray-800 dark:text-coolGray-50">
                 <div class="container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
                     <div class="grid grid-cols-12">
                         <div class="pb-6 col-span-full md:pb-0 md:col-span-6">
-                            <a href="#null" class="flex justify-center space-x-3 md:justify-start">
+                            <a href="#null" class="flex justify-center space-x-3 ">
                                 <div class="flex items-center justify-center w-12 h-12 rounded-full dark:bg-indigo-400">
                                     <FaBlogger className="w-9 h-9 text-red-500"/>
                                 </div>
